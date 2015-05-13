@@ -1,0 +1,14 @@
+{
+    "snake": {
+        "initDirection": "TOP",
+        "snakeLength": 3,
+        "snakeSpeed": 10,
+         "head": {"x": 10, "y":  10}
+    },
+
+    "gameField": {
+        "Width": 20,
+        "Height": 20,
+        "cellSize": 20
+    }
+}
