@@ -57,10 +57,46 @@
                     }
                 }
 
-                $('input').click(function () {                    
+               /* $('input').click(function () {
+                    // view.element.getContext('2d').clearRect();                  
+                    //snake = new Snake();
                     food = new Food();
                     isEnd = false;
-                });
+                });*/
+/*
+                  var startX;
+                  var startY;
+  
+                  $("#myCanvas").on("touchstart", function (evt) {
+                      console.log("touchstart");
+                      //evt.preventDefault();
+                      console.log(evt.originalEvent.touches);
+                      console.log(evt.originalEvent.changedTouches);
+                      console.log(evt.originalEvent.targetTouches);
+  
+                  });
+  
+                  $("#myCanvas").on("touchend", function () {
+                      console.log("touchend");
+                  });
+  
+                  $("#myCanvas").on("touchcancel", function () {
+                      console.log("touchcancel");
+                  });
+  
+                  $("#myCanvas").on("touchleave", function () {
+                      console.log("touchleave");
+                  });
+  
+                  $("#myCanvas").on("touchmove", function (evt) {
+                      console.log("touchmove");
+  
+                  });
+  
+                  $("#myCanvas").on("click", function () {
+                      console.log("click");
+                  });
+*/
             }
         }
 
@@ -72,6 +108,7 @@
                 food.generate({ occupiedCells: snake.segments });
 
             }
+
         }
 
     })();
